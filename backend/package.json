@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.cjs",
   "scripts": {
-    "start": "nodemon server.cjs",
+    "start": "nodemon Server.cjs",
     "build" : "npm i"
   },
   "dependencies": {
