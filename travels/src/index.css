@@ -1,0 +1,1319 @@
+
+.start{
+ height: 30%;
+  width: 90%;
+  position: fixed;
+  left: 2%;
+  top: 2%;
+}
+.start>img{
+  height: 110%;
+  width: 110%;
+  
+  position: fixed;
+  top: -2%;
+  left: -2%;
+
+}
+.start>h1{
+  z-index:1;
+  position: absolute;
+  bottom:-185%;
+  left: 29%;
+  font-size: 300%;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+.start>h1:hover{
+  text-shadow: 0.5rem 0.5rem 2rem black;
+}
+
+.click{
+  position:fixed;
+  top: 47%;
+  left: 42.5%;
+  background: none;
+  border-radius: 50%;
+  width: 18%;
+  height: 10%;
+ background-color: rgb(174, 17, 40);
+  color: aliceblue;
+  font-style: oblique;
+  z-index: 4;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  text-indent: 2%;
+ 
+}
+.click:hover{
+  background-color: aqua;
+  color: black;
+}
+
+
+
+
+
+.button1{
+  position:absolute;
+  background: none;
+  left: 55%;
+  top: 5%;
+  border: none;
+  font-size: 20px;
+
+}
+.button2{
+  position:absolute;
+  background: none;
+  left: 70%;
+  top: 5%;
+  border: none;
+  font-size: 20px;
+
+}
+.button3{
+  position:absolute;
+  background: none;
+  left:85%;
+  top: 5%;
+  border: none;
+  font-size: 20px;
+
+}
+.home{
+
+  position:fixed;
+  left:0%;
+  height: 30%;
+  width: 100%;
+  background-image: url("./images/road.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position-y: 60%;
+  top: 0%;
+  
+}
+
+.home1{
+  display: flex;
+  flex-direction:row;
+  gap: 6%;
+  position: relative;
+  left: 69%;
+  top: 72%;
+  font-size: 150%;
+  z-index: 6;
+
+}
+
+.arrow{
+ 
+  
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 120%;
+  gap: 26%;
+  height: 85%;
+  
+}
+.arrow1{
+ 
+
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100%;
+  gap: 26%;
+  height: 90%;
+  
+}
+.arrow2{
+ 
+  
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 7%;
+  gap: 26%;
+  height: 90%;
+  
+}
+.arrow3{
+
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10%;
+  gap: 26%;
+  height: 90%;
+  
+}
+.whole{
+    position: absolute;
+    top: 110%;
+    height: 240%;
+    width: 100%;
+ 
+    
+}
+.whole1{
+  position: relative;
+  top: -3.5%;
+  height: 90%;
+     overflow-y: scroll;
+  
+}
+
+
+.arrow>svg{
+  
+  position: relative;
+  height: auto;
+  width: 4%;
+  top: -135%;
+  left: -17%;
+  z-index: 1;
+}
+.arrow1>svg{
+  
+  position:relative;
+  height: auto;
+  width: 4%;
+  top: -87%;
+  left: -3.5%;
+  z-index: 1;
+}
+.arrow2>svg{
+
+  position: relative;
+  height: auto;
+  width: 4%;
+  top: 48%;
+  left: -3.5%;
+  z-index: 1;
+}
+.arrow3>svg{
+  
+  position: relative;
+  height: auto;
+  width: 4%;
+  top: 58%;
+  left: -3.5%;
+  z-index: 1;
+}
+.book{
+ position: absolute;
+ margin-right: 4%;
+ margin-top: -8%;
+ background-color:skyblue;
+ top: -39%;
+ left: -8%;
+ height: 15%;
+ width: 15%;
+ border-radius:7px 8px;
+ 
+}
+.book1{
+ position: absolute;
+ margin-right: 4%;
+ margin-top: -8%;
+ background-color:skyblue;
+ top: -36%;
+ left: 58%;
+ height: 15%;
+ width: 15%;
+ border-radius:7px 8px;
+ z-index: 3;
+}
+a{
+  text-decoration: none;
+}
+.book>p{
+ font-size: 150%;
+ position: relative;
+ top: 1%;
+ left: 25%;
+ color: black;
+ font-weight: bold;
+ 
+}
+.book1>p{
+ font-size: 150%;
+ position: relative;
+ top: 1%;
+ left: 25%;
+ color: black;
+ font-weight: bold;
+ 
+}
+.book:hover{
+ height: 17%;
+ width: 17%;
+  
+ }
+.book1:hover{
+ height: 17%;
+ width: 17%;
+  
+ }
+.arrow .book{
+  top: 10%;
+  left: 60%;
+  z-index: 1;
+
+
+}
+.arrow1 .book{
+  top: 19%;
+  left: 60%;
+  
+  z-index: 1;
+
+}
+.arrow2 .book{
+  top: 139%;
+  left: 60%;
+
+  z-index: 1;
+
+}
+.arrow3 .book{
+  top: 159%;
+  left: 60%;
+  
+  z-index: 1;
+
+}
+.details{
+  color: antiquewhite;
+  text-decoration: none;
+  text-shadow: 0.2rem 0.2rem 0.5rem black;
+}
+
+.para{
+  text-decoration-line: none;
+  text-decoration-style: none;
+
+}
+
+.position{
+  position:absolute;
+  background:linear-gradient(white,skyblue);
+ height: 700%;
+ width: 65%;
+  left: -53%;
+  top: 10%;
+  z-index: 8;
+}
+.para{
+  position: relative;
+  height: 30%;
+  top: 9%;
+  left: 28%;
+  display: flex;
+  flex-flow: column;
+  gap: 10%;
+  
+}
+.icon{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.icon>svg{
+
+  color: rgb(104, 170, 6);
+  height: 200%;
+  width: 200%;
+}
+.icon1{
+  position: absolute;
+  top: 47%;
+  left: 20%;
+}
+.icon1>svg{
+
+  color: rgb(98, 98, 230);
+  height: 200%;
+  width: 200%;
+}
+.icon2{
+  position: absolute;
+  top: 65%;
+  left: 20%;
+}
+.icon2>svg{
+
+  color: rgb(246, 150, 150);
+  height: 200%;
+  width: 200%;
+}
+.icon3{
+  position: absolute;
+  top: 83%;
+  left: 20%;
+}
+.icon3>svg{
+
+  color:rgb(84, 84, 240);
+  height: 200%;
+  width: 200%;
+}
+.position1{
+  position: relative;
+  top: 17%;
+}
+.position1>p{
+  
+ width: 79%;
+  position: relative;
+  left: 15%;
+  font-size: 115%;
+  font-weight: bold;
+  color:black;
+  text-shadow: 0.2rem 0.2rem 0.5rem white;
+  top: 20%;
+}
+.positions{
+  position:absolute;
+ height: 750%;
+ width: 50%;
+ background:linear-gradient(white,skyblue);
+  border-radius: 2%;
+  left: -46%;
+  top: 0%;
+  z-index: 10;
+  
+  
+}
+.positions>h1{
+  font-size: 170%;
+  position: relative;
+  left: 40%;
+  top: 3%;
+}
+.position>h1{
+  font-size: 150%;
+  position: relative;
+  left: 27%;
+  top: 5%;
+}
+.position .contact{
+  left: 38%;
+  font-size: 160%;
+
+}
+.position .feed{
+  left: 40%;
+  font-size: 160%;
+
+}
+.position>svg{
+  z-index: 2;
+  position: relative;
+  left: 90%;
+  top: -9%;
+  height: 8%;
+  width: 8%;
+}
+.position .feed>svg{
+  position: relative;
+  z-index: 2;
+  left: 80%;
+  top: -10%;
+  height: 8%;
+  width: 8%;
+
+}
+.position>svg:hover{
+  color: red;
+}
+.home>h1{
+  position: absolute;
+  left: 9%;
+  top: 30%;
+  font-size: 380%;
+  color: aliceblue;
+  text-shadow: 0.1rem 0.1rem 0.3rem white;
+  
+
+}
+.home>h1:hover{
+  font-size: 380%;
+  color: aliceblue;
+  text-shadow: 0.1rem 0.1rem 1rem white;
+
+}
+.home>img{
+  height: 70%;
+  width: 15%;
+  position:absolute;
+  top: 24%;
+  left: -3%;
+  animation-name: logo;
+  animation-iteration-count: 2;
+  animation-delay: 0.2s;
+ animation-duration: 0.5s;
+}
+
+@keyframes logo{
+  0%{
+    transform: rotateY(180deg);
+  }
+}
+
+.description{
+  position:absolute;
+  height: 10.5%;
+  width: 50%;
+  top: 26%;
+  left: 40%;
+  background: white;
+ 
+
+}
+.description>p{
+  position: relative;
+  left: 25%;
+  font-size: 200%;
+  
+}
+.description>h1{
+  position: relative;
+  left: -8%;
+  font-size: 250%;
+}
+.description1{
+  position:absolute;
+  margin-top: -25%;
+  height: 10.5%;
+  width: 50%;
+  top: 0%;
+  left: 40%;
+  background: white;
+ 
+
+}
+.description1>p{
+  position: relative;
+  left: 25%;
+  font-size: 200%;
+}
+.description1>h1{
+  position: relative;
+  left: -8%;
+  font-size: 250%;
+}
+.description2{
+  position:absolute;
+  margin-top: 10%;
+  height: 10.5%;
+  width: 50%;
+  top: 10%;
+  left: 40%;
+  background: white;
+ 
+
+}
+.description2>p{
+  position: relative;
+  left: 25%;
+  font-size: 200%;
+}
+.description2>h1{
+  position: relative;
+  left: -8%;
+  font-size: 250%;
+}
+.description3{
+  position:absolute;
+  margin-top: 15%;
+  height: 10.5%;
+  width: 50%;
+  top: 10%;
+  left: 40%;
+  background: white;
+ 
+
+}
+.description3>p{
+  position: relative;
+  left: 25%;
+  font-size: 200%;
+}
+.description3>h1{
+  position: relative;
+  left: -8%;
+  font-size: 250%;
+}
+.slider{
+  
+  position: absolute;
+   height: 700%;
+
+   width: 96%;
+   top: -320%;
+   left: 2%;
+   
+}
+.slider>img{
+  position: absolute;
+  
+ 
+   width: 23%;
+   top: 26%;
+   left: 7.5%;
+}
+.slider1>img{
+  position: absolute;
+   width: 23%;
+   top: -80%;
+   left: 9%;
+}
+.slider2>img{
+  position: absolute;
+
+ 
+   width: 23%;
+   top: 45%;
+   left: 9%;
+}
+.slider3>img{
+  position: absolute;
+
+   width: 25%;
+   top: 60%;
+   left: 9%;
+}
+.forms{
+  position:absolute;
+  left: 7%;
+  height: 80%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+ 
+}
+.forms label{
+
+  width: 50%;
+  font-size: 90%;
+  margin-top: 0.5%;
+
+}
+.forms>input{
+ 
+  width: 55%;
+  height:10%;
+  font-size: 60%;
+  margin-top: 0.5%;
+
+}
+.forms select{
+
+  width: 55%;
+  height:10%;
+  font-size: 60%;
+  margin-top: 0.5%;
+
+}
+.forms textarea{
+  width: 55%;
+  height:10%;
+  font-size: 60%;
+  margin-top: 0.5%;
+  
+
+}
+.forms button{
+  margin-top: 5%;
+  border-radius:8px 7px ;
+  width: 30%;
+  height: 10%;
+  color:black;
+  background-color:cornsilk;
+  z-index: 4;
+  font-size: 90%;
+}
+@media screen and (max-device-width:700px) {
+  .start{
+    height: 30%;
+     width: 90%;
+     position: fixed;
+     left: 2%;
+     top: 2%;
+   }
+   .start>img{
+     height: 110%;
+     width: 210%;
+     position: fixed;
+     top: -2%;
+     left: -40%;
+   
+   }
+   .start>h1{
+     z-index:1;
+     position: absolute;
+     text-align: center;
+     bottom:-185%;
+     left: 13%;
+     font-size: 250%;
+     color: aliceblue;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight:bolder;
+     text-shadow: 0.1rem 0.1rem 0.5rem black;
+   }
+   .start>h1:hover{
+     text-shadow: 0.5rem 0.5rem 2rem black;
+   }
+   
+   .click{
+     position:fixed;
+     top: 60%;
+     left: 35%;
+     background: none;
+     border-radius: 8px;
+     width: 35%;
+     height: 10%;
+    background-color: rgb(55, 11, 199);
+     color: aliceblue;
+     font-style: oblique;
+     z-index: 4;
+     font-size: 150%;
+     font-weight: bold;
+     text-align: center;
+     justify-content: center;
+     text-indent: 2%;
+    
+   }
+   .click>p{
+    margin-top: 10%;
+   }
+   .click:hover{
+     background-color: aqua;
+     color: black;
+   }
+   
+   
+   
+   
+   
+   .button1{
+     position:absolute;
+     background: none;
+     left: 55%;
+     top: 5%;
+     border: none;
+     font-size: 20px;
+   
+   }
+   .button2{
+     position:absolute;
+     background: none;
+     left: 70%;
+     top: 5%;
+     border: none;
+     font-size: 20px;
+   
+   }
+   .button3{
+     position:absolute;
+     background: none;
+     left:85%;
+     top: 5%;
+     border: none;
+     font-size: 20px;
+   
+   }
+   .home{
+   
+     position:fixed;
+     left:0%;
+     height: 20%;
+     width: 100%;
+     background-image: url("./images/road.jpg");
+     background-size:cover;
+     background-repeat: no-repeat;
+     background-position-y: 60%;
+     top: 0%;
+     
+   }
+   
+   .home1{
+     display: flex;
+     flex-direction:row;
+     gap: 6%;
+     position: relative;
+     left: 6%;
+     top: 72%;
+     font-size: 120%;
+     z-index: 6;
+     
+   
+   }
+   
+   .arrow{ 
+     display: flex;
+     flex-flow: row;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 8%;
+     gap: 26%;
+     height: 85%;
+     
+     
+   }
+   .arrow1{
+
+     display: flex;
+     flex-flow: row;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 100%;
+     gap: 26%;
+     height: 90%;
+     
+   }
+   .arrow2{
+    
+     
+     display: flex;
+     flex-flow: row;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 7%;
+     gap: 26%;
+     height: 90%;
+     
+   }
+   .arrow3{
+   
+     display: flex;
+     flex-flow: row;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 10%;
+     gap: 26%;
+     height: 90%;
+ 
+   }
+   .whole{
+       position: absolute;
+       top: 110%;
+       height: 450%;
+       width: 96%;
+    
+       
+   }
+   .whole1{
+     position: relative;
+     width:100%;
+     top: -2%;
+     height: 90%;
+    overflow-y: scroll;
+     
+   }
+   
+   
+   .arrow>svg{
+     
+     position: relative;
+     height: auto;
+     width: 10%;
+     top: 10%;
+     left: 14%;
+     z-index: 1;
+   }
+   .arrow1>svg{
+     
+     position:relative;
+     height: auto;
+     width: 10%;
+     top: -55%;
+     left: 26%;
+     z-index: 1;
+   }
+   .arrow2>svg{
+   
+     position: relative;
+     height: auto;
+     width: 10%;
+     top: 86%;
+     left: 29%;
+     z-index: 1;
+   }
+   .arrow3>svg{
+     
+    position: relative;
+    height: auto;
+    width: 10%;
+    top: 116%;
+    left: 29%;
+    z-index: 1;
+   }
+   .book{
+    position: absolute;
+    margin-left: -27%;
+    margin-top: 30%;
+    background-color:skyblue;
+    top: 113%;
+   left: 10%;
+    height: 10%;
+    width: 40%;
+    border-radius:7px 8px;
+    z-index: 3;
+    
+   }
+   .book1{
+    position: absolute;
+    margin-right: 4%;
+    margin-top: -8%;
+    background-color:skyblue;
+    top: 113%;
+    left: 30%;
+    height: 10%;
+    width: 40%;
+    border-radius:7px 8px;
+    z-index: 3;
+   }
+   a{
+     text-decoration: none;
+   }
+   .book>p{
+    font-size: 150%;
+    position: relative;
+    top: -10%;
+    left: 15%;
+    color: black;
+    font-weight: bold;
+    
+   }
+   .book1>p{
+    font-size: 150%;
+    position: relative;
+    top: -10%;
+    left: 15%;
+    color: black;
+    font-weight: bold;
+    
+   }
+   .book:hover{
+    height: 17%;
+    width: 17%;
+     
+    }
+   .book1:hover{
+    height: 10%;
+    width: 40%;
+
+    }
+   .arrow .book{
+     top: 10%;
+     left: 60%;
+     z-index: 1;
+   
+   
+   }
+   .arrow1 .book{
+     top: 19%;
+     left: 60%;
+     
+     z-index: 1;
+   
+   }
+   .arrow2 .book{
+     top: 158%;
+     left: 58%;
+   
+     z-index: 1;
+   
+   }
+   .arrow3 .book{
+     top: 190%;
+     left: 60%;
+    
+     z-index: 1;
+   
+   }
+ 
+   .details{
+     color: antiquewhite;
+     text-decoration: none;
+     text-shadow: 0.2rem 0.2rem 0.5rem black;
+   }
+   
+   .para{
+     text-decoration-line: none;
+     text-decoration-style: none;
+   
+   }
+   
+   .position{
+     position:absolute;
+     background:linear-gradient(white,skyblue);
+     box-shadow: 0.1rem 0.1rem 0.5rem black;
+    height: 700%;
+    width: 90%;
+     left: -1%;
+     top: 100%;
+     z-index: 8;
+   }
+   .para{
+     position: relative;
+     height: 30%;
+     top: 9%;
+     left: 28%;
+     display: flex;
+     flex-flow: column;
+     gap: 12%;
+     
+   }
+   .icon{
+     position: absolute;
+     top: 30%;
+     left: 10%;
+   }
+   .icon>svg{
+   
+     color: rgb(104, 170, 6);
+     height: 200%;
+     width: 200%;
+   }
+   .icon1{
+     position: absolute;
+     top: 47%;
+     left: 10%;
+   }
+   .icon1>svg{
+   
+     color: rgb(98, 98, 230);
+     height: 200%;
+     width: 200%;
+   }
+   .icon2{
+     position: absolute;
+     top: 65%;
+     left: 10%;
+   }
+   .icon2>svg{
+   
+     color: rgb(246, 150, 150);
+     height: 200%;
+     width: 200%;
+   }
+   .icon3{
+     position: absolute;
+     top: 83%;
+     left: 10%;
+   }
+   .icon3>svg{
+   
+     color:rgb(84, 84, 240);
+     height: 200%;
+     width: 200%;
+   }
+   .position1{
+     position: relative;
+     top: 10%;
+   }
+   .position1>p{
+     
+    width: 79%;
+     position: relative;
+     left: 15%;
+     font-size: 115%;
+     font-weight: bold;
+     color:black;
+     text-shadow: 0.2rem 0.2rem 0.5rem white;
+     top: -20%;
+   }
+   .positions{
+     position:absolute;
+    height: 800%;
+    width: 90%;
+    background:linear-gradient(white,skyblue);
+     border-radius: 2%;
+     left: 0%;
+     top: 0%;
+     z-index: 10;
+     
+     
+   }
+   .positions>h1{
+     font-size: 170%;
+     position: relative;
+     left: 28%;
+     top: 3%;
+   }
+   
+   .position>h1{
+     font-size: 120%;
+     position: relative;
+     left: 10%;
+     top: 5%;
+   }
+   .position .contact{
+     left: 25%;
+     font-size: 160%;
+   
+   }
+   .position .feed{
+     left: 28%;
+     font-size: 160%;
+   
+   }
+   .position>svg{
+     z-index: 2;
+     position: absolute;
+     top:1%;
+     left: 90%;
+     height: 8%;
+     width: 8%;
+   }
+   .position .feed>svg{
+     position: relative;
+     z-index: 2;
+     left: 80%;
+     top: -10%;
+     height: 8%;
+     width: 8%;
+   
+   }
+   .position>svg:hover{
+     color: red;
+   }
+   .home>h1{
+     position: absolute;
+     left: 15%;
+     top: 4%;
+     font-size: 250%;
+     color: aliceblue;
+     text-shadow: 0.1rem 0.1rem 0.3rem white;
+     
+   
+   }
+   .home>h1:hover{
+     font-size: 380%;
+     color: aliceblue;
+     text-shadow: 0.1rem 0.1rem 1rem white;
+   
+   }
+   .home>img{
+     height: 72%;
+     width: 32%;
+     position:absolute;
+     top: 10%;
+     left: -8%;
+     animation-name: logo;
+     animation-iteration-count: 2;
+     animation-delay: 0.2s;
+    animation-duration: 0.5s;
+
+   }
+   
+   @keyframes logo{
+     0%{
+       transform: rotateY(180deg);
+     }
+   }
+   
+   .description{
+     position:absolute;
+     height: 10.5%;
+     width: 90%;
+     top: 36%;
+     left: 10%;
+     background: white;
+   }
+   .description>p{
+     position: relative;
+     left: -5%;
+     font-size: 150%;
+     text-align: center;
+     
+   }
+   .description>h1{
+    width:80%;
+     position: relative;
+     left: 15%;
+     font-size: 200%;
+   }
+   .description1{
+    position:absolute;
+    height: 10.5%;
+    width: 90%;
+    top: 13%;
+    left: 10%;
+    background: white;
+    
+   
+   }
+   .description1>p{
+    position: relative;
+    left: -5%;
+    font-size: 150%;
+    text-align: center;
+   }
+   .description1>h1{
+    width:80%;
+    position: relative;
+    left: 20%;
+    font-size: 200%;
+   }
+   .description2{
+    position:absolute;
+    height: 10.5%;
+    width: 90%;
+    top: 130%;
+    left: 10%;
+    background: white;
+   
+   }
+   .description2>p{
+    position: relative;
+    left: -5%;
+    font-size: 150%;
+    text-align: center;
+   }
+   .description2>h1{
+    width:80%;
+    position: relative;
+    left: 10%;
+    font-size: 200%;
+   }
+   .description3{
+    position:absolute;
+    height: 10.5%;
+    width: 90%;
+    top: 157%;
+    left: 10%;
+    background: white;
+   
+   }
+   .description3>p{
+    position: relative;
+    left: -5%;
+    font-size: 150%;
+    text-align: center;
+   }
+   .description3>h1{
+    width:80%;
+    position: relative;
+    left: 10%;
+    font-size: 200%;
+   }
+   .slider{
+     
+     position: absolute;
+      height: 700%;
+   
+      width: 96%;
+      top: -190%;
+      left: 2%;
+      
+   }
+   .slider>img{
+     position: absolute;
+      width: 80%;
+      top: 26%;
+      left: 12%;
+      z-index: 3;
+   }
+   .slider1>img{
+    position: absolute;
+    width: 80%;
+    top: -80%;
+    left: 12%;
+    z-index: 3;
+   }
+   .slider2>img{
+    position: absolute;
+      width: 80%;
+      top: 58%;
+      left: 12%;
+      z-index: 3;
+   }
+   .slider3>img{
+    position: absolute;
+      width: 80%;
+      top: 88%;
+      left: 12%;
+      z-index: 3;
+   }
+   .forms{
+     position:absolute;
+     top: 22%;
+     left: 7%;
+     height: 80%;
+     width: 90%;
+     display: flex;
+     align-items: center;
+     flex-flow: column;
+    
+   }
+   .forms label{
+     margin-left: -20%;
+     width: 50%;
+     font-size: 110%;
+     margin-top: 0.5%;
+   
+   }
+   .forms>input{
+    
+     width: 70%;
+     height:10%;
+     font-size: 100%;
+     margin-top: 0.5%;
+   
+   }
+   .forms select{
+   
+     width: 55%;
+     height:10%;
+     font-size: 60%;
+     margin-top: 0.5%;
+   
+   }
+   .forms textarea{
+     width: 70%;
+     height:30%;
+     font-size: 100%;
+     margin-top: 0.5%;
+     
+   
+   }
+   .forms button{
+     margin-top: 5%;
+     border-radius:8px 7px ;
+     width: 30%;
+     height: 10%;
+     color:black;
+     background-color:cornsilk;
+     z-index: 4;
+     font-size: 90%;
+   }
+.form1{
+  position: relative;
+  top: -1%;
+}
+
+}
