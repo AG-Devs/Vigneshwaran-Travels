@@ -9,7 +9,7 @@ const Feedback = ({name,setname,no,setno,feedback,setfeed}) => {
     e.preventDefault()
     try{
      
-      axios.post('http://localhost:3001/app/feedback',{
+      axios.post('https://vigneshwaran-travels.onrender.com/app/feedback',{
         name,
         no,
         feedback

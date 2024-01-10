@@ -9,7 +9,7 @@ const Book = ({name,setname,no,setno,date,setdate}) => {
     const handleSubmit=(e)=>{
         e.preventDefault()
         try{
-          axios.post('http://localhost:3001/user/book',{
+          axios.post('https://vigneshwaran-travels.onrender.com/user/book',{
         name1,
         no1,
         date,

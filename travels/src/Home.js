@@ -11,16 +11,7 @@ import { useNavigate } from 'react-router-dom';
 const Home = () => {
   const navigate=useNavigate()
     const handleSubmit=(e)=>{
-      e.preventDefault()
-      
-
-
-
-
-
-
-      
-      
+      e.preventDefault() 
     }
   const [i,seti]=useState(0)
   const[j,setj]=useState(0)
